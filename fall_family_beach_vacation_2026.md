@@ -39,22 +39,22 @@ Wildcards:
 
 ## Planning budget guide
 
-These are budgeting bands, not live fare quotes. Live checkout prices should be checked once families agree on 2-3 finalists.
+These are budgeting bands, not live fare quotes. I tried shallow live-price fetching on 2026-06-16. Official hotel pages and airline route pages are reachable, but most exact family checkout totals are rendered inside booking engines and were not exposed as stable static HTML. Where that happened, I added the direct booking/search links so each family can click through and verify the exact current total.
 
 Assumptions:
 
 - Return flights per paid seat from Zurich, direct, school-holiday October.
 - Family hotel budget assumes 2 adults + 2 kids in one family room, suite, or apartment.
-- Per-family total = flights for 3-4 paid seats plus 10 nights lodging. Food basis varies by destination.
+- Per-family total = flights for 3-4 paid seats plus 10 nights lodging on full-board or all-inclusive terms.
 - Group total should roughly multiply by 3, but the family with the baby may be cheaper if the infant is on lap.
 
 | Destination | Direct flight fit from Zurich | October swim/weather | Flight budget per paid seat | Lodging budget per family/night | Rough 10-night family total |
 |---|---:|---|---:|---:|---:|
 | Antalya / Belek / Side | Excellent | Warm, sea usually comfortable | CHF 250-500 | CHF 250-650 all-inclusive | CHF 3,500-8,500 |
-| Cyprus: Protaras / Ayia Napa / Larnaca | Excellent | Warm, sea very comfortable | CHF 300-650 | CHF 250-750 HB/AI/apartment | CHF 4,000-10,000 |
+| Cyprus: Protaras / Ayia Napa / Larnaca | Excellent | Warm, sea very comfortable | CHF 300-650 | CHF 250-750 FB/AI | CHF 4,000-10,000 |
 | Egypt Red Sea: Hurghada / Marsa Alam / Sharm | Excellent | Hottest and most reliable | CHF 350-700 | CHF 220-650 all-inclusive | CHF 3,700-9,500 |
-| Canary Islands | Excellent | Warm air, cooler Atlantic sea | CHF 350-750 | CHF 250-800 apartment/resort | CHF 4,000-11,000 |
-| Crete / Rhodes | Excellent early Oct | Pleasant, less reliable after mid-Oct | CHF 250-600 | CHF 220-650 HB/AI | CHF 3,500-9,000 |
+| Canary Islands | Excellent | Warm air, cooler Atlantic sea | CHF 350-750 | CHF 250-800 FB/AI resort | CHF 4,000-11,000 |
+| Crete / Rhodes | Excellent early Oct | Pleasant, less reliable after mid-Oct | CHF 250-600 | CHF 220-650 FB/AI | CHF 3,500-9,000 |
 | Dubai / Ras Al Khaimah | Excellent | Hot, beach/pool guaranteed | CHF 450-900 | CHF 500-1,300 | CHF 7,000-18,000 |
 
 For the whole group, a realistic target budget range:
@@ -62,6 +62,69 @@ For the whole group, a realistic target budget range:
 - Value all-inclusive target: CHF 12,000-18,000 total group cost, mostly Turkey or Egypt.
 - Comfortable mid-range target: CHF 18,000-28,000 total group cost, Turkey/Cyprus/Egypt/Canaries.
 - Premium resort target: CHF 30,000+ total group cost, especially Cyprus premium, Dubai, or top Canaries resorts.
+
+## Price research snapshot
+
+Assumptions for price checking:
+
+- Dates: 2026-10-05 to 2026-10-17, 12 nights.
+- Hotel search mode: 1 family = 2 adults + 2 children, using ages 7 and 3 where an age field exists.
+- Flight search mode: 1 family = 2 adults + 2 children, direct flights only.
+- Currency target: CHF where possible; otherwise booking engine default currency.
+- Food filter: all-inclusive preferred; full board acceptable only if all-inclusive is not available but meals are covered.
+
+Important limitation: exact hotel and flight totals were not reliably exposed by the shallow static fetches I can run here. I was able to confirm live booking pages and route availability pages, but the final totals require interactive checkout/availability rendering. I therefore did not invent exact prices. Use the links below as the actual price-check links.
+
+### Flight links to price
+
+| Route | Airline/source link | October service clue | Exact family price |
+|---|---|---:|---|
+| Zurich-Antalya | [Edelweiss Zurich-Antalya](https://www.flyedelweiss.com/ch/en/destinations/antalya.html) | 8-9 flights/week in Oct 2026 | Not exposed in shallow fetch; check booking link on route page |
+| Zurich-Larnaca | [Edelweiss Zurich-Larnaca](https://www.flyedelweiss.com/ch/en/destinations/larnaca.html) | 14 flights/week in Oct 2026 | Not exposed in shallow fetch; check booking link on route page |
+| Zurich-Hurghada | [Edelweiss Zurich-Hurghada](https://www.flyedelweiss.com/ch/en/destinations/hurghada.html) | 11 flights/week in Oct 2026 | Not exposed in shallow fetch; check booking link on route page |
+| Zurich-Marsa Alam | [Edelweiss Zurich-Marsa Alam](https://www.flyedelweiss.com/ch/en/destinations/marsa-alam.html) | 4 flights/week in Oct 2026 | Not exposed in shallow fetch; check booking link on route page |
+| Zurich-Sharm El Sheikh | [Edelweiss Zurich-Sharm El Sheikh](https://www.flyedelweiss.com/ch/en/destinations/sharm-el-sheikh.html) | 3-4 flights/week in Oct 2026 | Not exposed in shallow fetch; check booking link on route page |
+| Zurich-Tenerife | [Edelweiss Zurich-Tenerife](https://www.flyedelweiss.com/ch/en/destinations/tenerife.html) | 9 flights/week in Oct 2026 | Not exposed in shallow fetch; check booking link on route page |
+| Zurich-Gran Canaria | [Edelweiss Zurich-Gran Canaria](https://www.flyedelweiss.com/ch/en/destinations/gran-canaria.html) | 8-9 flights/week in Oct 2026 | Not exposed in shallow fetch; check booking link on route page |
+| Zurich-Heraklion | [Edelweiss Zurich-Heraklion](https://www.flyedelweiss.com/ch/en/destinations/heraklion.html) | 17 flights/week in Oct 2026 | Not exposed in shallow fetch; check booking link on route page |
+| Zurich-Rhodes | [Edelweiss Zurich-Rhodes](https://www.flyedelweiss.com/ch/en/destinations/rhodes.html) | 6-7 flights/week in Oct 2026 | Not exposed in shallow fetch; check booking link on route page |
+| Basel leisure routes | [easyJet route map](https://www.easyjet.com/en/routemap) | Good backup for Cyprus, Egypt, Canaries, Turkey | Not exposed in shallow fetch; price after Zurich shortlist |
+
+### All-inclusive hotel links to price
+
+| Destination | Hotel | Board fit | Exact family price for 2026-10-05 to 2026-10-17 |
+|---|---|---|---|
+| Turkey / Side | [TUI BLUE Palm Garden](https://www.tui-blue.com/en/en/hotels/tui-blue-palm-garden/) | All-inclusive | Not exposed in shallow fetch; official page links to live booking engine |
+| Turkey / Side | [Paloma Finesse](https://www.palomahotels.com/paloma-finesse/) | All-inclusive concept | Not exposed in shallow fetch |
+| Turkey / Side | [Barut Hemera](https://baruthemera.com/en) | Ultra all-inclusive | Not exposed in shallow fetch; SynXis booking engine blocks direct static totals |
+| Turkey / Belek | [IC Hotels Santai Family Resort](https://www.ichotels.com.tr/en/ic-hotels-santai-family-resort) | All-inclusive family resort | Not exposed in shallow fetch |
+| Turkey / Belek | [TUI MAGIC LIFE Masmavi](https://www.magiclife.com/en/en/hotels/tui-magic-life-masmavi/) | All-inclusive club | Not exposed in shallow fetch |
+| Turkey / Belek | [The Land of Legends Kingdom Hotel](https://www.thelandoflegends.com/en/kingdom-hotel) | Theme-park resort, meal plan varies by offer | Not exposed in shallow fetch |
+| Turkey / Belek | [Nickelodeon Hotels & Resorts Antalya](https://www.nickelodeonhotelsresorts.com/antalya/) | Full-board/all-inclusive style packages vary | Not exposed in shallow fetch |
+| Cyprus / Ayia Napa | [Olympic Lagoon Resort Ayia Napa](https://www.kanikahotels.com/olympic-lagoon-resort-ayia-napa/) | All-inclusive | Not exposed in shallow fetch |
+| Cyprus / Protaras | [Louis St. Elias Resort & Waterpark](https://louishotels.com/en/louis-st-elias-resort-waterpark/) | All-inclusive available | Not exposed in shallow fetch |
+| Cyprus / Ayia Napa | [Atlantica Mare Village Ayia Napa](https://www.atlanticahotels.com/hotels-in-cyprus/atlantica-mare-village-ayia-napa) | All-inclusive available | Not exposed in shallow fetch |
+| Cyprus / Protaras | [TUI BLUE Nausicaa Beach](https://www.tui-blue.com/en/en/hotels/tui-blue-nausicaa-beach/) | All-inclusive available | Not exposed in shallow fetch |
+| Egypt / Makadi Bay | [Jaz Aquaviva](https://www.jazhotels.com/hotels/jaz-aquaviva-hurghada/) | All-inclusive | Not exposed in shallow fetch |
+| Egypt / Hurghada | [Steigenberger Aqua Magic](https://www.steigenberger.com/en/hotels/all-hotels/egypt/hurghada/steigenberger-aqua-magic) | All-inclusive available | Not exposed in shallow fetch |
+| Egypt / Hurghada | [Pickalbatros Jungle Aqua Park](https://www.pickalbatros.com/hotels-resorts/jungle-aqua-park/) | All-inclusive | Not exposed in shallow fetch |
+| Egypt / Makadi Bay | [Jaz Makadi Saraya Resort](https://www.jazhotels.com/hotels/jaz-makadi-saraya-resort-hurghada/) | All-inclusive | Not exposed in shallow fetch |
+| Egypt / Makadi Bay | [Jaz Makadina](https://www.jazhotels.com/hotels/jaz-makadina-hurghada/) | All-inclusive | Not exposed in shallow fetch |
+| Egypt / Sahl Hasheesh | [Baron Palace Sahl Hasheesh](https://www.baronhotels.com/en/egypt/sahl-hasheesh/baron-palace-sahl-hasheesh) | All-inclusive packages available | Not exposed in shallow fetch |
+| Egypt / Sharm | [Sunrise Arabian Beach Resort](https://www.sunrise-resorts.com/sunrise-arabian-beach-resort) | All-inclusive | Not exposed in shallow fetch |
+| Canaries / Tenerife | [GF Isabel](https://www.gfhoteles.com/en/hotels/gf-isabel/) | All-inclusive available | Not exposed in shallow fetch |
+| Canaries / Tenerife | [HD Parque Cristobal Tenerife](https://www.hdhotels.com/en/hd-parque-cristobal-tenerife/) | All-inclusive available | Not exposed in shallow fetch |
+| Canaries / Lanzarote | [H10 Suites Lanzarote Gardens](https://www.h10hotels.com/en/lanzarote-hotels/h10-suites-lanzarote-gardens) | All-inclusive available | Not exposed in shallow fetch |
+| Canaries / Lanzarote | [Iberostar Selection Lanzarote Park](https://www.iberostar.com/en/hotels/lanzarote/iberostar-selection-lanzarote-park/) | All-inclusive available | Not exposed in shallow fetch |
+| Canaries / Gran Canaria | [Maspalomas Princess](https://www.princess-hotels.com/en/gran-canaria/maspalomas-princess/) | All-inclusive available | Not exposed in shallow fetch |
+| Crete | [Creta Maris Resort](https://www.cretamaris.gr/) | All-inclusive | Not exposed in shallow fetch |
+| Crete | [Lyttos Beach](https://www.lyttosbeach.gr/) | All-inclusive | Not exposed in shallow fetch |
+| Crete | [Mitsis Rinela](https://www.mitsis.com/en/hotels/rinela) | All-inclusive | Not exposed in shallow fetch |
+| Rhodes | [Atlantica Aegean Blue](https://www.atlanticahotels.com/hotels-in-rhodes/atlantica-aegean-blue) | All-inclusive | Not exposed in shallow fetch |
+| Rhodes | [Amada Colossos Resort](https://www.amadacolossosresort.com/) | All-inclusive | Not exposed in shallow fetch |
+| Rhodes | [Mitsis Rodos Maris](https://www.mitsis.com/en/hotels/rodos-maris) | All-inclusive | Not exposed in shallow fetch |
+
+Dropped from the active hotel shortlist because they are not clearly all-inclusive/full-board focused for this group: [Nissi Beach Resort](https://www.nissi-beach.com/), [Capo Bay Hotel](https://capobay.com/), [Grecian Park Hotel](https://www.grecianpark.com/), [Malama Beach Holiday Village](https://malama.com.cy/), [GF Victoria](https://www.gfhoteles.com/en/hotels/gf-victoria/), [Bahia del Duque](https://www.thetaishotels.com/en/bahia-del-duque/), [Princesa Yaiza](https://www.princesayaiza.com/en/), [Lopesan Baobab Resort](https://www.lopesan.com/en/hotels/spain/gran-canaria/meloneras/baobab-resort/), [Seaside Los Jameos](https://www.seaside-collection.com/en/hotels/lanzarote/seaside-los-jameos/), [Candia Park Village](https://www.candiapark.com/), [Pilot Beach Resort](https://www.pilot-beach.gr/), and [The Royal Senses Resort](https://www.royalsenses.gr/).
 
 ## Option 1: Antalya, Belek, Side, or Lara, Turkey
 
@@ -80,12 +143,12 @@ Best areas:
 
 Hotel ideas:
 
-- TUI BLUE Palm Garden, Side/Kizilagac: family bungalows, greenery, kids club, beach, relaxed feel.
-- Paloma Finesse, Side: modern family resort, good pools and slides, premium all-inclusive.
-- Barut Hemera, Side: reliable higher-end family all-inclusive, beach, kids club, good food reputation.
-- IC Hotels Santai Family Resort, Belek: classic family resort with kids facilities.
-- TUI MAGIC LIFE Masmavi, Belek: active all-inclusive club style, good for bigger kids.
-- The Land of Legends Kingdom Hotel or Nickelodeon Hotels & Resorts, Belek: maximum kid excitement; consider 2-3 nights only, then calmer beach resort.
+- [TUI BLUE Palm Garden](https://www.tui-blue.com/en/en/hotels/tui-blue-palm-garden/), Side/Kizilagac: family bungalows, greenery, kids club, beach, relaxed feel.
+- [Paloma Finesse](https://www.palomahotels.com/paloma-finesse/), Side: modern family resort, good pools and slides, premium all-inclusive.
+- [Barut Hemera](https://baruthemera.com/en), Side: reliable higher-end family all-inclusive, beach, kids club, good food reputation.
+- [IC Hotels Santai Family Resort](https://www.ichotels.com.tr/en/ic-hotels-santai-family-resort), Belek: classic family resort with kids facilities.
+- [TUI MAGIC LIFE Masmavi](https://www.magiclife.com/en/en/hotels/tui-magic-life-masmavi/), Belek: active all-inclusive club style, good for bigger kids.
+- [The Land of Legends Kingdom Hotel](https://www.thelandoflegends.com/en/kingdom-hotel) or [Nickelodeon Hotels & Resorts Antalya](https://www.nickelodeonhotelsresorts.com/antalya/), Belek: maximum kid excitement; consider 2-3 nights only, then calmer beach resort.
 
 Things to do:
 
@@ -121,12 +184,10 @@ Best areas:
 
 Hotel ideas:
 
-- Nissi Beach Resort, Ayia Napa: beach-first, classic, lots of families.
-- Olympic Lagoon Resort Ayia Napa: strong all-inclusive family resort with kids facilities.
-- Louis St. Elias Resort & Waterpark, Protaras: apartment-style resort with waterpark, useful for families.
-- Capo Bay Hotel, Protaras: right near Fig Tree Bay, more hotel than mega-resort.
-- Grecian Park Hotel, Cape Greco/Protaras: scenic, quieter, beach shuttle/steps to Konnos Bay.
-- Malama Beach Holiday Village, Protaras: apartment-style, low-key family setup.
+- [Olympic Lagoon Resort Ayia Napa](https://www.kanikahotels.com/olympic-lagoon-resort-ayia-napa/): strong all-inclusive family resort with kids facilities.
+- [Louis St. Elias Resort & Waterpark](https://louishotels.com/en/louis-st-elias-resort-waterpark/), Protaras: apartment-style resort with waterpark, useful for families.
+- [Atlantica Mare Village Ayia Napa](https://www.atlanticahotels.com/hotels-in-cyprus/atlantica-mare-village-ayia-napa): all-inclusive resort-village setup near the beach.
+- [TUI BLUE Nausicaa Beach](https://www.tui-blue.com/en/en/hotels/tui-blue-nausicaa-beach/), Protaras: apartment-style beachfront option with all-inclusive offers.
 
 Things to do:
 
@@ -164,12 +225,12 @@ Best areas:
 
 Hotel ideas:
 
-- Jaz Aquaviva, Makadi Bay: strong family waterpark setup.
-- Steigenberger Aqua Magic, Hurghada: water slides, family focus, easy airport transfer.
-- Pickalbatros Jungle Aqua Park, Hurghada: maximum slides and kid energy.
-- Jaz Makadi Saraya / Jaz Makadina, Makadi Bay: more balanced family resort feel.
-- Baron Palace Sahl Hasheesh: higher-end option with good beach setting.
-- Sunrise Arabian Beach Resort, Sharm: polished resort with beach/snorkeling access.
+- [Jaz Aquaviva](https://www.jazhotels.com/hotels/jaz-aquaviva-hurghada/), Makadi Bay: strong family waterpark setup.
+- [Steigenberger Aqua Magic](https://www.steigenberger.com/en/hotels/all-hotels/egypt/hurghada/steigenberger-aqua-magic), Hurghada: water slides, family focus, easy airport transfer.
+- [Pickalbatros Jungle Aqua Park](https://www.pickalbatros.com/hotels-resorts/jungle-aqua-park/), Hurghada: maximum slides and kid energy.
+- [Jaz Makadi Saraya Resort](https://www.jazhotels.com/hotels/jaz-makadi-saraya-resort-hurghada/) / [Jaz Makadina](https://www.jazhotels.com/hotels/jaz-makadina-hurghada/), Makadi Bay: more balanced family resort feel.
+- [Baron Palace Sahl Hasheesh](https://www.baronhotels.com/en/egypt/sahl-hasheesh/baron-palace-sahl-hasheesh): higher-end option with good beach setting.
+- [Sunrise Arabian Beach Resort](https://www.sunrise-resorts.com/sunrise-arabian-beach-resort), Sharm: polished resort with beach/snorkeling access.
 
 Things to do:
 
@@ -205,12 +266,11 @@ Best areas:
 
 Hotel ideas:
 
-- GF Victoria, Costa Adeje, Tenerife: premium family resort, suites, splash areas.
-- Bahia del Duque, Costa Adeje, Tenerife: high-end beach resort, beautiful but pricey.
-- H10 Suites Lanzarote Gardens, Costa Teguise: practical suite setup, family-friendly.
-- Princesa Yaiza, Playa Blanca, Lanzarote: premium family resort with good location.
-- Lopesan Baobab Resort, Meloneras, Gran Canaria: large family resort with strong pools.
-- Seaside Los Jameos, Lanzarote: classic resort feel, usually better value than the top luxury picks.
+- [GF Isabel](https://www.gfhoteles.com/en/hotels/gf-isabel/), Costa Adeje, Tenerife: family apartment resort with all-inclusive option.
+- [HD Parque Cristobal Tenerife](https://www.hdhotels.com/en/hd-parque-cristobal-tenerife/), Playa de las Americas, Tenerife: bungalow-style family resort with all-inclusive option.
+- [H10 Suites Lanzarote Gardens](https://www.h10hotels.com/en/lanzarote-hotels/h10-suites-lanzarote-gardens), Costa Teguise: practical suite setup, family-friendly, all-inclusive available.
+- [Iberostar Selection Lanzarote Park](https://www.iberostar.com/en/hotels/lanzarote/iberostar-selection-lanzarote-park/), Playa Blanca, Lanzarote: polished family resort with all-inclusive option.
+- [Maspalomas Princess](https://www.princess-hotels.com/en/gran-canaria/maspalomas-princess/), Gran Canaria: large resort with all-inclusive option.
 
 Things to do:
 
@@ -244,12 +304,12 @@ Best areas:
 
 Hotel ideas:
 
-- Candia Park Village, Crete: apartment-village format, very good for families.
-- Creta Maris Resort, Crete: large all-inclusive, waterpark, near Hersonissos.
-- Pilot Beach Resort, Crete: beach resort near Georgioupolis, spacious feel.
-- The Royal Senses Resort, Crete: premium resort with family facilities and waterpark.
-- Atlantica Aegean Blue, Rhodes: family resort with waterpark-style facilities.
-- Amada Colossos Resort, Rhodes: large family-friendly beach resort.
+- [Creta Maris Resort](https://www.cretamaris.gr/), Crete: large all-inclusive, waterpark, near Hersonissos.
+- [Lyttos Beach](https://www.lyttosbeach.gr/), Crete: all-inclusive beach resort with waterpark-style facilities.
+- [Mitsis Rinela](https://www.mitsis.com/en/hotels/rinela), Crete: all-inclusive family beach resort close to Heraklion.
+- [Atlantica Aegean Blue](https://www.atlanticahotels.com/hotels-in-rhodes/atlantica-aegean-blue), Rhodes: family resort with waterpark-style facilities.
+- [Amada Colossos Resort](https://www.amadacolossosresort.com/), Rhodes: large family-friendly all-inclusive beach resort.
+- [Mitsis Rodos Maris](https://www.mitsis.com/en/hotels/rodos-maris), Rhodes: all-inclusive family resort on Kiotari beach.
 
 Things to do:
 
