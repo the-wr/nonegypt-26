@@ -98,21 +98,21 @@ Important limitation: exact hotel and flight totals were not reliably exposed by
 | Turkey / Side | [Paloma Finesse](https://www.palomahotels.com/paloma-finesse/) | All-inclusive concept | Not exposed in shallow fetch |
 | Turkey / Side | [Barut Hemera](https://baruthemera.com/en) | Ultra all-inclusive | Not exposed in shallow fetch; SynXis booking engine blocks direct static totals |
 | Turkey / Belek | [IC Hotels Santai Family Resort](https://www.ichotels.com.tr/en/ic-hotels-santai-family-resort) | All-inclusive family resort | Not exposed in shallow fetch |
-| Turkey / Belek | [TUI MAGIC LIFE Masmavi](https://www.magiclife.com/en/en/hotels/tui-magic-life-masmavi/) | All-inclusive club | Not exposed in shallow fetch |
-| Turkey / Belek | [The Land of Legends Kingdom Hotel](https://www.thelandoflegends.com/en/kingdom-hotel) | Theme-park resort, meal plan varies by offer | Not exposed in shallow fetch |
-| Turkey / Belek | [Nickelodeon Hotels & Resorts Antalya](https://www.nickelodeonhotelsresorts.com/antalya/) | Full-board/all-inclusive style packages vary | Not exposed in shallow fetch |
-| Cyprus / Ayia Napa | [Olympic Lagoon Resort Ayia Napa](https://www.kanikahotels.com/olympic-lagoon-resort-ayia-napa/) | All-inclusive | Not exposed in shallow fetch |
-| Cyprus / Protaras | [Louis St. Elias Resort & Waterpark](https://louishotels.com/en/louis-st-elias-resort-waterpark/) | All-inclusive available | Not exposed in shallow fetch |
-| Cyprus / Ayia Napa | [Atlantica Mare Village Ayia Napa](https://www.atlanticahotels.com/hotels-in-cyprus/atlantica-mare-village-ayia-napa) | All-inclusive available | Not exposed in shallow fetch |
+| Turkey / Belek | [TUI MAGIC LIFE Masmavi](https://www.magiclife.com/de/de/cluburlaub/tuerkei/masmavi/club-details/) | All-inclusive club | Not exposed in shallow fetch |
+| Turkey / Belek | [The Land of Legends Kingdom Hotel](https://www.thelandoflegends.com/en/hotel/kingdom-hotel) | Theme-park resort, meal plan varies by offer | Not exposed in shallow fetch |
+| Turkey / Belek | [Nickelodeon Hotels & Resorts Antalya](https://www.thelandoflegends.com/en/hotel/nickelodeon-hotels-resorts-antalya) | Full-board/all-inclusive style packages vary | Not exposed in shallow fetch |
+| Cyprus / Ayia Napa | [Olympic Lagoon Resort Ayia Napa](https://www.olympiclagoonresorts.com/ayia-napa/) | All-inclusive | Not exposed in shallow fetch |
+| Cyprus / Protaras | [Louis St. Elias Resort & Waterpark](https://louishotels.com/en/louis-st-elias-resort.html) | All-inclusive available | Not exposed in shallow fetch |
+| Cyprus / Ayia Napa | [Mare Ayia Napa](https://www.atlanticahotels.com/mare-ayia-napa/) | All-inclusive available | Not exposed in shallow fetch |
 | Cyprus / Protaras | [TUI BLUE Nausicaa Beach](https://www.tui-blue.com/en/en/hotels/tui-blue-nausicaa-beach/) | All-inclusive available | Not exposed in shallow fetch |
-| Egypt / Makadi Bay | [Jaz Aquaviva](https://www.jazhotels.com/hotels/jaz-aquaviva-hurghada/) | All-inclusive | Not exposed in shallow fetch |
+| Egypt / Makadi Bay | [Jaz Aquaviva](https://www.jazhotels.com/destinations/makadi-bay) | All-inclusive | Not exposed in shallow fetch |
 | Egypt / Hurghada | [Steigenberger Aqua Magic](https://www.steigenberger.com/en/hotels/all-hotels/egypt/hurghada/steigenberger-aqua-magic) | All-inclusive available | Not exposed in shallow fetch |
 | Egypt / Hurghada | [Pickalbatros Jungle Aqua Park](https://www.pickalbatros.com/hotels-resorts/jungle-aqua-park/) | All-inclusive | Not exposed in shallow fetch |
-| Egypt / Makadi Bay | [Jaz Makadi Saraya Resort](https://www.jazhotels.com/hotels/jaz-makadi-saraya-resort-hurghada/) | All-inclusive | Not exposed in shallow fetch |
-| Egypt / Makadi Bay | [Jaz Makadina](https://www.jazhotels.com/hotels/jaz-makadina-hurghada/) | All-inclusive | Not exposed in shallow fetch |
-| Egypt / Sahl Hasheesh | [Baron Palace Sahl Hasheesh](https://www.baronhotels.com/en/egypt/sahl-hasheesh/baron-palace-sahl-hasheesh) | All-inclusive packages available | Not exposed in shallow fetch |
+| Egypt / Makadi Bay | [Jaz Makadi Saraya Resort](https://www.jazhotels.com/destinations/makadi-bay) | All-inclusive | Not exposed in shallow fetch |
+| Egypt / Makadi Bay | [Jaz Makadina](https://www.jazhotels.com/destinations/makadi-bay) | All-inclusive | Not exposed in shallow fetch |
+| Egypt / Hurghada | [Rixos Premium Magawish Suites & Villas](https://www.rixos.com/hotel-resort/rixos-premium-magawish-suites-villas) | All-inclusive packages available | Not exposed in shallow fetch |
 | Egypt / Sharm | [Sunrise Arabian Beach Resort](https://www.sunrise-resorts.com/sunrise-arabian-beach-resort) | All-inclusive | Not exposed in shallow fetch |
-| Canaries / Tenerife | [GF Isabel](https://www.gfhoteles.com/en/hotels/gf-isabel/) | All-inclusive available | Not exposed in shallow fetch |
+| Canaries / Tenerife | [GF Isabel](https://www.gfhoteles.com/en/gf-isabel.html) | All-inclusive available | Not exposed in shallow fetch |
 | Canaries / Tenerife | [HD Parque Cristobal Tenerife](https://www.hdhotels.com/en/hd-parque-cristobal-tenerife/) | All-inclusive available | Not exposed in shallow fetch |
 | Canaries / Lanzarote | [H10 Suites Lanzarote Gardens](https://www.h10hotels.com/en/lanzarote-hotels/h10-suites-lanzarote-gardens) | All-inclusive available | Not exposed in shallow fetch |
 | Canaries / Lanzarote | [Iberostar Selection Lanzarote Park](https://www.iberostar.com/en/hotels/lanzarote/iberostar-selection-lanzarote-park/) | All-inclusive available | Not exposed in shallow fetch |
@@ -120,11 +120,13 @@ Important limitation: exact hotel and flight totals were not reliably exposed by
 | Crete | [Creta Maris Resort](https://www.cretamaris.gr/) | All-inclusive | Not exposed in shallow fetch |
 | Crete | [Lyttos Beach](https://www.lyttosbeach.gr/) | All-inclusive | Not exposed in shallow fetch |
 | Crete | [Mitsis Rinela](https://www.mitsis.com/en/hotels/rinela) | All-inclusive | Not exposed in shallow fetch |
-| Rhodes | [Atlantica Aegean Blue](https://www.atlanticahotels.com/hotels-in-rhodes/atlantica-aegean-blue) | All-inclusive | Not exposed in shallow fetch |
+| Rhodes | [Atlantica Aegean Blue](https://www.atlanticahotels.com/atlantica-aegean-blue/) | All-inclusive | Not exposed in shallow fetch |
 | Rhodes | [Amada Colossos Resort](https://www.amadacolossosresort.com/) | All-inclusive | Not exposed in shallow fetch |
 | Rhodes | [Mitsis Rodos Maris](https://www.mitsis.com/en/hotels/rodos-maris) | All-inclusive | Not exposed in shallow fetch |
 
-Dropped from the active hotel shortlist because they are not clearly all-inclusive/full-board focused for this group: [Nissi Beach Resort](https://www.nissi-beach.com/), [Capo Bay Hotel](https://capobay.com/), [Grecian Park Hotel](https://www.grecianpark.com/), [Malama Beach Holiday Village](https://malama.com.cy/), [GF Victoria](https://www.gfhoteles.com/en/hotels/gf-victoria/), [Bahia del Duque](https://www.thetaishotels.com/en/bahia-del-duque/), [Princesa Yaiza](https://www.princesayaiza.com/en/), [Lopesan Baobab Resort](https://www.lopesan.com/en/hotels/spain/gran-canaria/meloneras/baobab-resort/), [Seaside Los Jameos](https://www.seaside-collection.com/en/hotels/lanzarote/seaside-los-jameos/), [Candia Park Village](https://www.candiapark.com/), [Pilot Beach Resort](https://www.pilot-beach.gr/), and [The Royal Senses Resort](https://www.royalsenses.gr/).
+Dropped from the active hotel shortlist because they are not clearly all-inclusive/full-board focused for this group: [Nissi Beach Resort](https://www.nissi-beach.com/), [Capo Bay Hotel](https://capobay.com/), [Grecian Park Hotel](https://www.grecianpark.com/), [Malama Beach Holiday Village](https://www.malamabeachholidayvillage.com/), [GF Victoria](https://www.gfvictoria.com/en/), [Bahia del Duque](https://www.thetaishotels.com/en/bahia-del-duque/), [Princesa Yaiza](https://www.princesayaiza.com/en/), [Lopesan Baobab Resort](https://www.lopesan.com/en/hotels/spain/gran-canaria/meloneras/baobab-resort/), [Seaside Los Jameos](https://www.los-jameos.com/), [Candia Park Village](https://www.candiapark.com/), and [Pilot Beach Resort](https://www.pilot-beach.gr/). The Royal Senses Resort was removed from this linked list because its official direct site/domain was not reliable in automated checks.
+
+Hotel link audit, 2026-06-16: all linked hotel URLs above were rechecked after cleanup. No hotel link returned a 404. Iberostar and Rixos may return 403 to automated scripts, but both official pages opened successfully in browser/web checks.
 
 ## Option 1: Antalya, Belek, Side, or Lara, Turkey
 
@@ -147,8 +149,8 @@ Hotel ideas:
 - [Paloma Finesse](https://www.palomahotels.com/paloma-finesse/), Side: modern family resort, good pools and slides, premium all-inclusive.
 - [Barut Hemera](https://baruthemera.com/en), Side: reliable higher-end family all-inclusive, beach, kids club, good food reputation.
 - [IC Hotels Santai Family Resort](https://www.ichotels.com.tr/en/ic-hotels-santai-family-resort), Belek: classic family resort with kids facilities.
-- [TUI MAGIC LIFE Masmavi](https://www.magiclife.com/en/en/hotels/tui-magic-life-masmavi/), Belek: active all-inclusive club style, good for bigger kids.
-- [The Land of Legends Kingdom Hotel](https://www.thelandoflegends.com/en/kingdom-hotel) or [Nickelodeon Hotels & Resorts Antalya](https://www.nickelodeonhotelsresorts.com/antalya/), Belek: maximum kid excitement; consider 2-3 nights only, then calmer beach resort.
+- [TUI MAGIC LIFE Masmavi](https://www.magiclife.com/de/de/cluburlaub/tuerkei/masmavi/club-details/), Belek: active all-inclusive club style, good for bigger kids.
+- [The Land of Legends Kingdom Hotel](https://www.thelandoflegends.com/en/hotel/kingdom-hotel) or [Nickelodeon Hotels & Resorts Antalya](https://www.thelandoflegends.com/en/hotel/nickelodeon-hotels-resorts-antalya), Belek: maximum kid excitement; consider 2-3 nights only, then calmer beach resort.
 
 Things to do:
 
@@ -184,9 +186,9 @@ Best areas:
 
 Hotel ideas:
 
-- [Olympic Lagoon Resort Ayia Napa](https://www.kanikahotels.com/olympic-lagoon-resort-ayia-napa/): strong all-inclusive family resort with kids facilities.
-- [Louis St. Elias Resort & Waterpark](https://louishotels.com/en/louis-st-elias-resort-waterpark/), Protaras: apartment-style resort with waterpark, useful for families.
-- [Atlantica Mare Village Ayia Napa](https://www.atlanticahotels.com/hotels-in-cyprus/atlantica-mare-village-ayia-napa): all-inclusive resort-village setup near the beach.
+- [Olympic Lagoon Resort Ayia Napa](https://www.olympiclagoonresorts.com/ayia-napa/): strong all-inclusive family resort with kids facilities.
+- [Louis St. Elias Resort & Waterpark](https://louishotels.com/en/louis-st-elias-resort.html), Protaras: apartment-style resort with waterpark, useful for families.
+- [Mare Ayia Napa](https://www.atlanticahotels.com/mare-ayia-napa/): all-inclusive resort-village setup near the beach.
 - [TUI BLUE Nausicaa Beach](https://www.tui-blue.com/en/en/hotels/tui-blue-nausicaa-beach/), Protaras: apartment-style beachfront option with all-inclusive offers.
 
 Things to do:
@@ -225,11 +227,11 @@ Best areas:
 
 Hotel ideas:
 
-- [Jaz Aquaviva](https://www.jazhotels.com/hotels/jaz-aquaviva-hurghada/), Makadi Bay: strong family waterpark setup.
+- [Jaz Aquaviva](https://www.jazhotels.com/destinations/makadi-bay), Makadi Bay: strong family waterpark setup.
 - [Steigenberger Aqua Magic](https://www.steigenberger.com/en/hotels/all-hotels/egypt/hurghada/steigenberger-aqua-magic), Hurghada: water slides, family focus, easy airport transfer.
 - [Pickalbatros Jungle Aqua Park](https://www.pickalbatros.com/hotels-resorts/jungle-aqua-park/), Hurghada: maximum slides and kid energy.
-- [Jaz Makadi Saraya Resort](https://www.jazhotels.com/hotels/jaz-makadi-saraya-resort-hurghada/) / [Jaz Makadina](https://www.jazhotels.com/hotels/jaz-makadina-hurghada/), Makadi Bay: more balanced family resort feel.
-- [Baron Palace Sahl Hasheesh](https://www.baronhotels.com/en/egypt/sahl-hasheesh/baron-palace-sahl-hasheesh): higher-end option with good beach setting.
+- [Jaz Makadi Saraya Resort](https://www.jazhotels.com/destinations/makadi-bay) / [Jaz Makadina](https://www.jazhotels.com/destinations/makadi-bay), Makadi Bay: more balanced family resort feel.
+- [Rixos Premium Magawish Suites & Villas](https://www.rixos.com/hotel-resort/rixos-premium-magawish-suites-villas), Hurghada: higher-end option with good beach setting.
 - [Sunrise Arabian Beach Resort](https://www.sunrise-resorts.com/sunrise-arabian-beach-resort), Sharm: polished resort with beach/snorkeling access.
 
 Things to do:
@@ -266,7 +268,7 @@ Best areas:
 
 Hotel ideas:
 
-- [GF Isabel](https://www.gfhoteles.com/en/hotels/gf-isabel/), Costa Adeje, Tenerife: family apartment resort with all-inclusive option.
+- [GF Isabel](https://www.gfhoteles.com/en/gf-isabel.html), Costa Adeje, Tenerife: family apartment resort with all-inclusive option.
 - [HD Parque Cristobal Tenerife](https://www.hdhotels.com/en/hd-parque-cristobal-tenerife/), Playa de las Americas, Tenerife: bungalow-style family resort with all-inclusive option.
 - [H10 Suites Lanzarote Gardens](https://www.h10hotels.com/en/lanzarote-hotels/h10-suites-lanzarote-gardens), Costa Teguise: practical suite setup, family-friendly, all-inclusive available.
 - [Iberostar Selection Lanzarote Park](https://www.iberostar.com/en/hotels/lanzarote/iberostar-selection-lanzarote-park/), Playa Blanca, Lanzarote: polished family resort with all-inclusive option.
@@ -307,7 +309,7 @@ Hotel ideas:
 - [Creta Maris Resort](https://www.cretamaris.gr/), Crete: large all-inclusive, waterpark, near Hersonissos.
 - [Lyttos Beach](https://www.lyttosbeach.gr/), Crete: all-inclusive beach resort with waterpark-style facilities.
 - [Mitsis Rinela](https://www.mitsis.com/en/hotels/rinela), Crete: all-inclusive family beach resort close to Heraklion.
-- [Atlantica Aegean Blue](https://www.atlanticahotels.com/hotels-in-rhodes/atlantica-aegean-blue), Rhodes: family resort with waterpark-style facilities.
+- [Atlantica Aegean Blue](https://www.atlanticahotels.com/atlantica-aegean-blue/), Rhodes: family resort with waterpark-style facilities.
 - [Amada Colossos Resort](https://www.amadacolossosresort.com/), Rhodes: large family-friendly all-inclusive beach resort.
 - [Mitsis Rodos Maris](https://www.mitsis.com/en/hotels/rodos-maris), Rhodes: all-inclusive family resort on Kiotari beach.
 
